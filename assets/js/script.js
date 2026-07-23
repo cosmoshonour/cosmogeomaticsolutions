@@ -157,3 +157,67 @@ header.sticky{
     color:#666;
     line-height:1.7;
 }
+/* ===========================
+   CONTACT
+=========================== */
+
+.contact{
+    padding:100px 8%;
+    background:#f8f9fc;
+}
+
+.contact-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    margin-top:50px;
+}
+
+.contact-info{
+    background:#003366;
+    color:#fff;
+    padding:40px;
+    border-radius:12px;
+}
+
+.contact-info h3{
+    margin-bottom:20px;
+}
+
+.contact-info p{
+    margin-bottom:18px;
+    line-height:1.7;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.contact-form button{
+    border:none;
+    cursor:pointer;
+}
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#002244;
+    color:#fff;
+    text-align:center;
+    padding:30px 20px;
+}
+
+footer p{
+    margin:8px 0;
+}
