@@ -1,1 +1,151 @@
-/* Cosmo Geomatics Solutions Stylesheet */
+/* ===========================
+   ABOUT SECTION
+=========================== */
+
+.about {
+    padding: 100px 8%;
+    background: #ffffff;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.15);
+}
+
+.about-text h2 {
+    font-size: 40px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.about-list {
+    list-style: none;
+}
+
+.about-list li {
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: #222;
+}
+
+.about-list li i {
+    color: #00b894;
+    margin-right: 10px;
+}
+
+/* ===========================
+   SERVICES
+=========================== */
+
+.services {
+    background: #f8f9fb;
+    padding: 100px 8%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    color: #003366;
+}
+
+.section-title p {
+    color: #666;
+    margin-top: 15px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    gap: 30px;
+}
+
+.service-card {
+    background: white;
+    padding: 35px;
+    border-radius: 18px;
+    transition: .4s;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.service-card:hover {
+    transform: translateY(-12px);
+}
+
+.service-card i {
+    font-size: 45px;
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    margin-bottom: 15px;
+    color: #003366;
+}
+
+.service-card p {
+    color: #666;
+    line-height: 1.8;
+}
+
+/* ===========================
+   PROJECTS
+=========================== */
+
+.projects {
+    padding: 100px 8%;
+    background: white;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap: 30px;
+}
+
+.project-card {
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,.1);
+}
+
+.project-card img {
+    width: 100%;
+    display: block;
+    transition: .5s;
+}
+
+.project-card:hover img {
+    transform: scale(1.08);
+}
+
+.project-content {
+    padding: 25px;
+}
+
+.project-content h3 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.project-content p {
+    color: #666;
+}
