@@ -110,3 +110,50 @@ header.sticky{
         justify-content:center;
     }
 }
+/* ===========================
+   PROJECTS
+=========================== */
+
+.projects{
+    padding:100px 8%;
+    background:#ffffff;
+}
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    margin-top:50px;
+}
+
+.project-card{
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+}
+
+.project-card img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+}
+
+.project-content{
+    padding:25px;
+}
+
+.project-content h3{
+    color:#003366;
+    margin-bottom:12px;
+}
+
+.project-content p{
+    color:#666;
+    line-height:1.7;
+}
